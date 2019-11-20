@@ -73,7 +73,7 @@
 }
 
 - (void) bindShortcuts {
-    int step = 5;
+    int step = 1;
     [[MASShortcutBinder sharedBinder]
      bindShortcutWithDefaultsKey:@"ShortcutBrighter"
      toAction:^{

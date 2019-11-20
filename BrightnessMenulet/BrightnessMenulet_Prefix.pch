@@ -3,11 +3,11 @@
 //
 
 #ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-    #import <MASShortcut/Shortcut.h>
-    #import "DDCControls.h"
-    #import "LMUController.h"
+#import <Cocoa/Cocoa.h>
+#import "DDCControls.h"
+#import "LMUController.h"
+#import <MASShortcut/Shortcut.h>
 
-    #define controls [DDCControls singleton]
-    #define lmuCon [LMUController singleton]
+#define controls [DDCControls singleton]
+#define lmuCon [LMUController singleton]
 #endif

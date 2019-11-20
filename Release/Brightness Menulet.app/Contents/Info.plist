@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G21013</string>
+	<string>19B88</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -31,21 +31,23 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>7D1014</string>
+	<string>11B500</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>15E60</string>
+	<string>19B89</string>
 	<key>DTSDKName</key>
-	<string>macosx10.11</string>
+	<string>macosx10.15</string>
 	<key>DTXcode</key>
-	<string>0731</string>
+	<string>1120</string>
 	<key>DTXcodeBuild</key>
-	<string>7D1014</string>
+	<string>11B500</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSBackgroundOnly</key>
 	<false/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.8</string>
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSMainNibFile</key>

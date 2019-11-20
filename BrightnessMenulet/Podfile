@@ -1,0 +1,9 @@
+platform :osx, '10.14'
+
+target 'BrightnessMenulet' do
+    
+inhibit_all_warnings!
+
+pod 'MASShortcut'
+
+end

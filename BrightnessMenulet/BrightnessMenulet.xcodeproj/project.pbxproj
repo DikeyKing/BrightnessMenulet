@@ -11,9 +11,6 @@
 		0B4E1FEF19E5FEBB0044BAFE /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4E1FEE19E5FEBB0044BAFE /* PreferencesController.m */; };
 		0BCFE67319C9F1B40094B561 /* DDCControls.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCFE67219C9F1B30094B561 /* DDCControls.m */; };
 		734F15471D63C0900040BB29 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4E1FEB19E5FD4B0044BAFE /* Preferences.xib */; };
-		7393E95E1D65EEB100CCB604 /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7393E95D1D65EEB100CCB604 /* MASShortcut.framework */; };
-		7393E95F1D65EEB600CCB604 /* MASShortcut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7393E95D1D65EEB100CCB604 /* MASShortcut.framework */; };
-		7393E9601D65EEB600CCB604 /* MASShortcut.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7393E95D1D65EEB100CCB604 /* MASShortcut.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7393E9671D6616B400CCB604 /* icon-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7393E9631D6616B400CCB604 /* icon-alt.png */; };
 		7393E9681D6616B400CCB604 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7393E9641D6616B400CCB604 /* icon.png */; };
 		7393E9691D6616B400CCB604 /* icon2-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7393E9651D6616B400CCB604 /* icon2-alt.png */; };
@@ -21,6 +18,7 @@
 		7D2FF98311406B0100707C79 /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FF98211406B0100707C79 /* MainMenuController.m */; };
 		7D2FF9FC1140B94600707C79 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D2FF9FB1140B94600707C79 /* IOKit.framework */; };
 		7D2FFBA21140CC8700707C79 /* brightness-sun-transparent-black.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7D2FFBA11140CC8700707C79 /* brightness-sun-transparent-black.icns */; };
+		80D28A4FC8E432D4E5668A02 /* libPods-BrightnessMenulet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4359116B024D43138774CD7A /* libPods-BrightnessMenulet.a */; };
 		863E61681C5C51DD00C2419C /* LMUController.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E61671C5C51DD00C2419C /* LMUController.m */; };
 		863E616B1C5D33C600C2419C /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = 863E616A1C5D33C600C2419C /* Screen.m */; };
 		864C8A2B1BF9B9BD00D87B1A /* ddc.c in Sources */ = {isa = PBXBuildFile; fileRef = 864C8A291BF9B9BD00D87B1A /* ddc.c */; };
@@ -36,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7393E9601D65EEB600CCB604 /* MASShortcut.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +53,8 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* BrightnessMenulet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessMenulet_Prefix.pch; sourceTree = "<group>"; };
-		7393E95D1D65EEB100CCB604 /* MASShortcut.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MASShortcut.framework; sourceTree = "<group>"; };
+		4359116B024D43138774CD7A /* libPods-BrightnessMenulet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BrightnessMenulet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526A7A1FB60A0DD29491B2E4 /* Pods-BrightnessMenulet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightnessMenulet.debug.xcconfig"; path = "Target Support Files/Pods-BrightnessMenulet/Pods-BrightnessMenulet.debug.xcconfig"; sourceTree = "<group>"; };
 		7393E9631D6616B400CCB604 /* icon-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-alt.png"; sourceTree = "<group>"; };
 		7393E9641D6616B400CCB604 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		7393E9651D6616B400CCB604 /* icon2-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2-alt.png"; sourceTree = "<group>"; };
@@ -75,6 +73,7 @@
 		864C8A2A1BF9B9BD00D87B1A /* ddc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ddc.h; sourceTree = SOURCE_ROOT; };
 		8670E94B1BC44EB800402DE5 /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5740920E6DAF41B6FA1C57 /* Pods-BrightnessMenulet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrightnessMenulet.release.xcconfig"; path = "Target Support Files/Pods-BrightnessMenulet/Pods-BrightnessMenulet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7393E95E1D65EEB100CCB604 /* MASShortcut.framework in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				7393E95F1D65EEB600CCB604 /* MASShortcut.framework in Frameworks */,
 				7D2FF9FC1140B94600707C79 /* IOKit.framework in Frameworks */,
+				80D28A4FC8E432D4E5668A02 /* libPods-BrightnessMenulet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +170,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				D2E46287B4E39C8E2B174147 /* Pods */,
 			);
 			name = MyStatusItem;
 			sourceTree = "<group>";
@@ -191,10 +190,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7393E95D1D65EEB100CCB604 /* MASShortcut.framework */,
 				79897D331664F808008C7D5C /* ddc */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+				4359116B024D43138774CD7A /* libPods-BrightnessMenulet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,6 +218,15 @@
 			name = LMU;
 			sourceTree = "<group>";
 		};
+		D2E46287B4E39C8E2B174147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				526A7A1FB60A0DD29491B2E4 /* Pods-BrightnessMenulet.debug.xcconfig */,
+				CB5740920E6DAF41B6FA1C57 /* Pods-BrightnessMenulet.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,10 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BrightnessMenulet" */;
 			buildPhases = (
+				5E0E3AAB82DCB956ACB6A97A /* [CP] Check Pods Manifest.lock */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
 				7393E9611D65EEB600CCB604 /* Embed Frameworks */,
+				EEE06296618EB6AF2819EC18 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +260,7 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = RM9CZ3VM6M;
+						DevelopmentTeam = WMSS77X69Q;
 					};
 				};
 			};
@@ -259,9 +269,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* MyStatusItem */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -287,6 +299,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E0E3AAB82DCB956ACB6A97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrightnessMenulet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE06296618EB6AF2819EC18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BrightnessMenulet/Pods-BrightnessMenulet-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MASShortcut/MASShortcut.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MASShortcut.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BrightnessMenulet/Pods-BrightnessMenulet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,6 +363,7 @@
 /* Begin XCBuildConfiguration section */
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526A7A1FB60A0DD29491B2E4 /* Pods-BrightnessMenulet.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -315,6 +371,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = WMSS77X69Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -340,6 +397,7 @@
 		};
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5740920E6DAF41B6FA1C57 /* Pods-BrightnessMenulet.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -347,6 +405,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WMSS77X69Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
